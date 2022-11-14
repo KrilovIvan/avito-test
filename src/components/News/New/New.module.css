@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.new {
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.contaner {
+  width: inherit;
+  height: max-content;
+  background-color: white;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.authorCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.author {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px;
+}

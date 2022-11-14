@@ -1,0 +1,14 @@
+.byDate {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.contaner {
+  display: flex;
+  flex-direction: column;
+}
+
+.show {
+  color: #1976d2;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.authDate {
+  gap: 20px;
+}
+
+.authDate,
+.titleLink {
+  display: flex;
+  flex-direction: row;
+}
+.titleLink {
+  justify-content: space-between;
+}
+
+.buttons {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
